@@ -1,11 +1,11 @@
 # svelte app
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template-webpack.
+This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/striblab/svelte3-template-webpack and is a fork of https://github.com/sveltejs/template-webpack.
 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit sveltejs/template-webpack svelte-app
+npx degit striblab/svelte3-template-webpack svelte-app
 cd svelte-app
 ```
 
@@ -31,6 +31,12 @@ Navigate to [localhost:8080](http://localhost:8080). You should see your app run
 
 
 ## Deploying to the web
+
+```bash
+npm run deploy
+```
+
+Or, some other suggestions from Rich Harris:
 
 ### With [now](https://zeit.co/now)
 
